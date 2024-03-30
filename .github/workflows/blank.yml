@@ -31,4 +31,5 @@ jobs:
       - name: Run a multi-line script
         run: |
           echo THIS_IS_A_ENV_VAR = ${{vars.THIS_IS_A_ENV_VAR}}
+          echo THIS_IS_A_SECRET = ${{vars.THIS_IS_A_SECRET}}
           echo environment = ${{inputs.environment}}
